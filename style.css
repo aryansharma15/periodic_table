@@ -1,0 +1,67 @@
+body{
+    margin-left: 100px;
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+.non-react{
+    display: flex;
+}
+
+.elements{
+    padding: 5px;
+    border: 1px solid;
+    border-color: #000000;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+
+.metals{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 380px;
+}
+
+.metals>.elements{
+    background-color: rgba(255, 123, 109, 0.857);
+    
+}
+
+.tran-mets{
+    position: relative;
+    top: 160px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.tran-mets>.elements{
+    background-color: rgb(149, 211, 255);
+}
+
+.non-mets{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+    
+    position: relative;
+    top: 53px;
+    left: 563px;
+}
+
+.non-mets>.elements{
+    background-color: #fdff77;
+}
+
+.hel{
+    position: relative;
+    left: 881px;
+}
