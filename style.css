@@ -65,3 +65,46 @@ body{
     position: relative;
     left: 881px;
 }
+
+.reacts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 700px;
+
+    position: relative;
+    left: 138px;
+}
+
+.reacts>.elements{
+    background-color: #a6ff96;
+}
+
+.str{
+    display: flex;
+    flex-direction: column;
+    
+    
+    position: relative;
+    top: 290px;
+    left: 67px;
+
+}
+
+.str2{
+    margin-top: 30px;
+    line-height: 9px;
+}
+
+.reac-str{
+    position: relative;
+    right: 585px;
+    bottom: 125px;
+}
+
+
+.str-r2{
+    margin-top: 30px;
+    line-height: 9px;
+}
